@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-wordcloud.min.js"></script>
+
+</head>
+<body>
+    <div align="center">
+        <h3>
+            冰菓人物词频统计
+        </h3>
+    </div>
+    <div align="center">
+        <p>
+            这张图统计了冰菓主要人物的出现次数，并据此做出了云图。
+            不难发现，主人公里志出现次数很多。
+        </p>
+    </div>
+    <div id="037cf52be7a34fc6a3a75f6b0d726c64" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_037cf52be7a34fc6a3a75f6b0d726c64 = echarts.init(
+            document.getElementById('037cf52be7a34fc6a3a75f6b0d726c64'), 'white', {renderer: 'canvas'});
+        var option_037cf52be7a34fc6a3a75f6b0d726c64 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "wordCloud",
+            "shape": "triangle",
+            "rotationRange": [
+                0,
+                0
+            ],
+            "rotationStep": 45,
+            "girdSize": 20,
+            "sizeRange": [
+                20,
+                100
+            ],
+            "data": [
+                {
+                    "name": "\u91cc\u5fd7",
+                    "value": 374,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,126,98)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u963f\u798f",
+                    "value": 62,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(124,20,133)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7530\u540d\u8fb9",
+                    "value": 59,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(39,66,91)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6d77\u85e4",
+                    "value": 55,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(48,19,65)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5173\u8c37\u7eaf",
+                    "value": 36,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(118,46,63)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9646\u5c71",
+                    "value": 25,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,121,122)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u9759",
+                    "value": 24,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(103,67,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7c73\u6cfd\u7a57",
+                    "value": 23,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,79,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u771f\u7531\u5b50",
+                    "value": 23,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,72,81)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u590f\u6d1b\u514b",
+                    "value": 16,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(20,32,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6298\u6728\u5949",
+                    "value": 15,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,68,59)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7c73\u6cfd",
+                    "value": 13,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(114,22,0)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4f46\u91cc\u5fd7",
+                    "value": 12,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(55,138,5)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9053\u8c22",
+                    "value": 12,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(5,23,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6469\u8036\u82b1",
+                    "value": 12,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(152,64,84)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9a6c\u62c9\u677e",
+                    "value": 12,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(154,147,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e9a\u4e5f\u5b50",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,90,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6c64\u6d45",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,92,14)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5409\u91ce",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,50,111)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e16\u963f\u5f25",
+                    "value": 10,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(100,94,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u963f\u5b97",
+                    "value": 10,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,126,87)"
+                        }
+                    }
+                }
+            ],
+            "drawOutOfBound": false,
+            "textStyle": {
+                "emphasis": {}
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "WordCloud-shape-diamond",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_037cf52be7a34fc6a3a75f6b0d726c64.setOption(option_037cf52be7a34fc6a3a75f6b0d726c64);
+    </script>
+
+</body>
+</html>
